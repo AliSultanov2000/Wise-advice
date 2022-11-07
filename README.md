@@ -4,4 +4,4 @@ Project stages:
 - Text data preprocessing
 - Creating an LSTM model
 - Creating an ML Pipeline
-- Embedding the model in a Docker container
+- Embedding the model in a Docker container (for further use in the application)
