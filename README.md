@@ -6,4 +6,7 @@ Project stages:
 - Creating an ML Pipeline
 - Embedding the model in a Docker container (for further use in the application)
 
-Model limitations: The model can only process words in English
+Model limitations: The model can only process words in English.
+
+ML Pipeline: 
+
