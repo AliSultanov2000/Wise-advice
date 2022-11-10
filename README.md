@@ -8,7 +8,7 @@ Project stages:
 
 Model limitations: The model can only process words in English
 
-Metrics: 
+Metrics: f-1 score
 
 There are various types of text representation in the form of a vector or matrix, for example:  
 - Bag of words (N - grams). The text is represented as a vector   
