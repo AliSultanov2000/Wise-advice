@@ -1,14 +1,16 @@
-The goal of this project is to create ML model (Based on RNN) which will determine the tone of the text  
+The goal of this project is to create ML model (Based on RNN) which will determine the tone of the text: positive or negative (thus the ML problem is a binary classification). 
 Project stages: 
-- Text data parsing 
-- Text data preprocessing
-- Creating an LSTM model
-- Creating an ML Pipeline
-- Embedding the model in a Docker container (for further use in the application)
+- Problem statement, its translation into machine learning language  
+- Choosing metrics  
+- Text data parsing  
+- Exploratory data analysis (EDA)  
+- Text data preprocessing  
+- Creating an RNN (exactly LSTM) model  
+- Creating an ML Pipeline  
+- Embedding the model in a Docker container (for further use in the application)  
 
-Model limitations: The model can only process words in English
-
-Metrics: f-1 score
+Model limitations: The model can only process words in English  
+Metrics: Precision (due to the objectivity)
 
 There are various types of text representation in the form of a vector or matrix, for example:  
 - Bag of words (N - grams). The text is represented as a vector   
