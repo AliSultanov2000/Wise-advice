@@ -22,4 +22,6 @@ Within the framework of this project, a dense vector representation of words is 
 
 
 ML Pipeline: 
-
+- Using our own tokenizer, we translate the text into tokens  
+- Using the tokenizer dictionary, we match a number to each token. We get the sequence  
+- 
