@@ -7,7 +7,6 @@ from model_pipeline import json_load
 MAIN_URL = 'https://www.imdb.com'
 DATA_SAVE_PATH = json_load('paths.json')['DATA_SAVE_PATH']  # here we will save the .csv file with text and label
 
-
 def get_html_data(url: str) -> BeautifulSoup:
     """The function returns the result of sending a request by url"""
     req = requests.get(url)

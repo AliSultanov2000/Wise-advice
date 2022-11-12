@@ -1,0 +1,5 @@
+{
+  "DATA_SAVE_PATH": "/Users/alisultanov/Desktop/data.csv",
+  "TOKENIZER_SAVE_PATH":  "/Users/alisultanov/PycharmProject/Wise-advice/tokenizer.pickle",
+  "MODEL_SAVE_PATH": "/Users/alisultanov/PycharmProject/Wise-advice/lstm_model"
+}

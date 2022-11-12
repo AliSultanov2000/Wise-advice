@@ -2,8 +2,7 @@ The goal of this project is to create ML model (Based on RNN) which will determi
 Project stages: 
 - Problem statement, its translation into machine learning language  
 - Choosing metrics  
-- Text data parsing  
-- Exploratory data analysis (EDA)  
+- Text data parsing    
 - Text data preprocessing  
 - Creating an RNN (exactly LSTM) model  
 - Creating an ML Pipeline  
@@ -28,4 +27,4 @@ ML Pipeline:
 - Changing the size of the sequence (in our case it is 200 elements). If the numbers in the sequence are less than 200, then 0 are added to the beginning of the sequence. If the numbers in the sequence are more than 200, then the sequence is trimmed to the desired size  
 - Passing the sequence model LSTM. As a result, we get an answer for this text 
 
-As a result of this project, a recurrent neural network - LSTM was obtained.  To obtain the best metrics,  the parameters of the size of the batch and the number of epochs were varied. Also. a change in the complexity of the model itself was considered: the number of layers and cells (for the same purpose, the Batch Normalization layer was added). Using a tokenizer from SpaСy, Nltk - did not give a significant result, so a standard tokenizer from Keras was used. Currently, the model is ready for implementation in production.
+As a result of this project, a recurrent neural network - LSTM was obtained.  To obtain the best metrics,  the parameters of the size of the batch and the number of epochs were varied. Also, a change in the complexity of the model itself was considered: the number of layers and cells (for the same purpose, the Batch Normalization layer was added). Using a tokenizer from SpaСy, Nltk - did not give a significant result, so a standard tokenizer from Keras was used. Currently, the model is ready for implementation in production.
