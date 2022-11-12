@@ -1,4 +1,4 @@
-The goal of this project is to create ML model (Based on RNN) which will determine the tone of the text: positive or negative (thus the ML problem is a binary classification). 
+The goal of this project is to create ML model (Based on RNN) which will determine the tone of the text: positive or negative (thus the ML problem is a binary classification). The main scope of the project: chatbots
 Project stages: 
 - Problem statement, its translation into machine learning language  
 - Choosing metrics  
