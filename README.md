@@ -2,8 +2,7 @@ The goal of this project is to create ML model (Based on RNN) which will determi
 Project stages: 
 - Problem statement, its translation into machine learning language  
 - Choosing metrics  
-- Text data parsing  
-- Exploratory data analysis (EDA)  
+- Text data parsing    
 - Text data preprocessing  
 - Creating an RNN (exactly LSTM) model  
 - Creating an ML Pipeline  
