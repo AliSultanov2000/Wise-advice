@@ -9,7 +9,7 @@ Project stages:
 - Creating an ML Pipeline  
 - Embedding the model in a Docker container (for further use in the application)  
 
-The stack of technologies used: Python, Docker, Jupyter Notebook(Google Colab), Keras, NumPy, Pandas  
+The stack of technologies used: Python, Docker, Jupyter Notebook(Google Colab), Keras, NumPy, Pandas, Matplotlib
 
 Model limitations: The model can only process words in English  
 Metrics: Precision (due to the objectivity)
