@@ -26,7 +26,7 @@ MAX_TEXT_LEN = 200
 model: Sequential
 tokenizer: Tokenizer
 
-def ml_pipeline(text: str) -> str:
+def model_predict(text: str) -> str:
     """LSTM model prediction function for this sample"""
     try:
         sequence = tokenizer.texts_to_sequences([text])
@@ -46,4 +46,4 @@ def ml_pipeline(text: str) -> str:
 if __name__ == "__main__":
     model = models.load_model(MODEL_SAVE_PATH)
     tokenizer = pickle_load(TOKENIZER_SAVE_PATH)
-    print(ml_pipeline(''))
+    model_predict('')
