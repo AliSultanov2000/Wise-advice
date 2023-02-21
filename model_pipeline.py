@@ -1,7 +1,7 @@
 import json
 import pickle
 import os
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '1'
 from keras import Sequential
 from keras import models
 from keras_preprocessing.sequence import pad_sequences
